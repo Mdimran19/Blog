@@ -16,7 +16,7 @@ const Header = () => {
    
     try {
       const response = await axios.post(
-        "http://localhost:7000/email/emailadd",
+        "blog-psi-one-78.vercel.app/email/emailadd",
         { email },
         {
           withCredentials: true,
