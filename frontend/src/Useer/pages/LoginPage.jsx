@@ -14,7 +14,7 @@ const LoginPage = () => {
       e.preventDefault();
   
       try {
-        const response = await axios.post('http://localhost:7000/blog/loginadmin', {
+        const response = await axios.post('blog-psi-one-78.vercel.app/blog/loginadmin', {
           email,
           password,
         });
