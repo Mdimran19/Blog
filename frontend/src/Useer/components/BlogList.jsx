@@ -15,7 +15,7 @@
 //    useEffect(() => {
 //     const fetchBlogs = async () => {
 //       try {
-//         const response = await axios.get('http://localhost:7000/blog/blog-get');
+//         const response = await axios.get('blog-psi-one-78.vercel.app/blog/blog-get/blog/blog-get');
 //         if (response && response.data) {
 //           setBlogs(response.data); // ডেটা সেট করুন
 //         } else {
